@@ -4,17 +4,12 @@
 */
 
 /* Major sections of the page */
-
-
-
 body {
     display: flex;
     flex-flow: column wrap;
     font-size: 16px;
     margin:0;
 }
-
-
 
 
 html{
@@ -38,14 +33,16 @@ header div.container{
 
 header a{
     color:#6b7280;
-    font-style: bold;
-    text-decoration: none;
-    font-weight: bold;
 }
 
 
 a:hover{
     color: #5A67D8;
+}
+
+a{
+    text-decoration: none;
+    font-weight: bold;
 }
 
 
@@ -133,9 +130,7 @@ footer{
     border-radius: 5px;
     text-transform: uppercase;
     font-weight: normal;
-    padding: 0.5em 1.5em 0.5em 1.5em;
     margin-left: 5px;
-    text-decoration: none;
 }
 
 
@@ -187,10 +182,16 @@ img{
     justify-content: center;
 }
 
+.stories h3{
+    width: 30em;
+}
+
 
 .stories h2{
     font-size: 18px;
     color:#5A67D8;
+    margin-top: 6em;
+
 }
 
 
@@ -262,6 +263,7 @@ img{
     border: 1px solid #E2E8F0;
     border-radius: 5px;
 }
+
 
 .card div.card-body{
     float: left;
